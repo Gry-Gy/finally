@@ -10,8 +10,9 @@
     bottom:0;
 }
 .header{
+
     width: 100%;
-    position:absolute;
+    position:fixed;
     left:0px;
     top:0;
     right:0;
@@ -20,32 +21,29 @@
 }
 
 .header h2{
-    
     font-family: "隶书";
     color: rgb(12, 144, 128);
 }
 .left{
     float: left;
-    margin-top: 5px;
-    width: 13%;
+    width: 200px;
     height: 100px;
     line-height: 60px;
-    border: 1px red solid;
 }
 .right{
     float: right;
-    border: 1px red solid;
-    height: 100px;
-    width: 86%;
+    height: 80px;
+    width: 86%; 
 }
 .hrone{
     float: left;
 }
 .hrtwo{
     float: right;
-    background-color: antiquewhite;
+    background-color: rgb(49, 251, 66);
     width: 150px;
-    height: 100px;
+    height: 80px;
+    border-radius: 20%;
 
 }
 
@@ -66,7 +64,6 @@
 .leftMenu ul{
     width: 200px;
     list-style: none;
-    border: 1px red solid;
     height: 160px;
     text-align: center;
     line-height: 50px;
@@ -74,7 +71,6 @@
 .leftMenu ul li{
     width: 200px;
     height: 50px;
-    border: 1px red solid;
     color: #ffffff;
 }
 .leftMenu ul li:hover{
@@ -104,13 +100,32 @@ a:hover{
     border-right: 5px solid transparent;
     border-bottom: 10px solid rgb(255, 255, 255); 
     transform: rotate(180deg);
-    position: relative; /* 使用相对定位 */
-    left: 30px; /* 将箭头向右移动 15px */
+    position: relative;
+    left: 30px; 
     transition: transform 0.3s ease;
     
 }
 .rotate {
     transform: rotate(0deg);
+}
+.one {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .one h1 {
+    color: #333;
+    font-size: 24px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 10px;
+  }
+.two{
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 100vh;
+    margin: 0;
 }
 
 

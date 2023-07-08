@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-<div class="main_next">
+<div class="main_next" >
     <h2><em>明星产品</em></h2>
     <?php
         // 假设从数据库获取了需要输出的数据

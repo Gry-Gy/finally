@@ -1,0 +1,41 @@
+/* 表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* 表头样式 */
+  th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* 表格行样式 */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* 鼠标悬停时行背景色变化 */
+  tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* 图片样式 */
+  img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+  
+  /* 没有结果时的提示样式 */
+  .no-results {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+  }
+  
