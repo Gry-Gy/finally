@@ -9,7 +9,6 @@ mysqli_stmt_execute($stmt);
 mysqli_stmt_bind_result($stmt, $count);
 mysqli_stmt_fetch($stmt);
 mysqli_stmt_close($stmt);
-
 if ($count > 0) {
     $response = array("error" => "已存在相同的ID，添加失败");
     echo json_encode($response);

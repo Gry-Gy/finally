@@ -39,6 +39,8 @@
     float: left;
 }
 .hrtwo{
+    line-height: 80px;
+    text-align: center;
     float: right;
     background-color: rgb(49, 251, 66);
     width: 150px;

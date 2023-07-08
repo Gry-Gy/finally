@@ -1,0 +1,46 @@
+*{
+    margin: 0 ;
+    padding: 0;
+}
+#regbox{
+    background-image: url(../img/login/login.jpg);
+    background-repeat: no-repeat;
+    width:585px;
+    height:249px;
+    margin: 13% auto;
+    
+}
+.title{
+    position: relative;
+    top:20px;
+    left:150px;
+}
+.login{
+    position: relative;
+    top:20px;
+    left:70px;
+}
+.login tr{
+    position: relative;
+    top:10px;
+}
+.reg-btn{
+    border-radius:5px;
+    background-color: lightcyan;
+}
+body{
+    background-repeat: repeat-y;
+    background-size:100%;
+}
+/* #s11 {
+    position: relative;
+}
+
+#img {
+    position: absolute;
+    top: -2px;
+} */
+#aa{
+    position: relative;
+    top:-5px;
+}

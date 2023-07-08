@@ -12,21 +12,17 @@
         $conn = mysqli_connect('localhost', 'root', '') or die('连接失败');
         mysqli_select_db($conn, "spgl") or die('选择数据库失败');
         mysqli_set_charset($conn, "utf8");
-
         // 获取搜索关键字和排序方式
         $search = isset($_GET['search']) ? $_GET['search'] : '';
         $sort = isset($_GET['sort']) ? $_GET['sort'] : '';
-
         // 查询语句
         $sql = "SELECT id, goodsname, price, type, detail, brief, img FROM goods WHERE id LIKE '%$search%' OR goodsname LIKE '%$search%' OR price LIKE '%$search%'";
-
         // 添加排序方式
         if ($sort == 'price') {
             $sql .= " ORDER BY price";
         } elseif ($sort == 'id') {
             $sql .= " ORDER BY id";
         }
-
         $result = mysqli_query($conn, $sql);
         if (mysqli_num_rows($result) > 0) {
             echo "<table>";
