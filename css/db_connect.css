@@ -36,7 +36,16 @@
     width: 86%; 
 }
 .hrone{
+    height: 80px;
+
+    text-align: center;
+    width: 1100px;
     float: left;
+}
+.hrone h3{
+    color: antiquewhite;
+    font-size: 30px;
+
 }
 .hrtwo{
     line-height: 80px;
@@ -47,6 +56,16 @@
     height: 80px;
     border-radius: 20%;
 
+}
+.hrtwo a{
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(31, 37, 209);
+    font-size: 18px;
+}
+.hrtwo a:hover
+{
+    color: rgb(255, 76, 17);
 }
 
 

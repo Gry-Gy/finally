@@ -20,12 +20,13 @@
         </div>
        <div class="right">
             <div class="hrone">
-              
+                <h3>这是gry的数据后台</h3>
             </div>
             <div class="hrtwo">
                <?php
                include "login_name.php";
                ?>
+               <a href="login.php">[退出]</a>
             </div>
        </div>
     </header>
